@@ -13,14 +13,26 @@ body {
 }
 
 .fa-solid {
-    color: white; /* Cambia el color del icono a blanco */
+    color: white;
 }
 
 #bg-section2 {
     background-color: transparent;
 }
 
+#bg-section3 {
+    background-color: transparent;
+}
+
 .transparent-card {
-    background-color: rgba(255, 255, 255, 0); /* Fondo transparente */
-    border: none; /* Elimina el borde si lo hay */
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+.custom-card-group {
+    margin-top: 3rem;
+}
+
+.custom-card {
+    margin: 1rem;
 }
