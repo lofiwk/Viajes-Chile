@@ -33,7 +33,6 @@
     <title>Notas Finales</title>
   </head>
   <body>
-
     <section>
       <header>
         <div
@@ -84,7 +83,8 @@
           </button>
         </div>
         <nav
-        class="navbar navbar-expand-lg navbar-dark bg-opacity-75 fixed-top">
+          class="navbar navbar-expand-lg navbar-dark bg-opacity-75 fixed-top"
+        >
           <div class="container">
             <div class="d-flex justify-content-between w-100">
               <a class="navbar-brand" href="index.html">
@@ -274,31 +274,49 @@
     </section>
 
     <section id="bg-section4">
-        <div class="section-title">
-            <h1>CONTACTO</h1>
+      <div class="section-title">
+        <h1>CONTACTO</h1>
+      </div>
+      <div class="container form-container">
+        <div class="row justify-content-center">
+          <div class="col-md-12">
+            <!-- Ajusta el ancho del contenedor del formulario -->
+            <form class="p-5 rounded">
+              <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" />
+              </div>
+              <div class="mb-3">
+                <label for="asunto" class="form-label">Asunto</label>
+                <input type="text" class="form-control" id="asunto" />
+              </div>
+              <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
         </div>
-        <div class="container form-container">
-            <div class="row justify-content-center">
-                <div class="col-md-12"> <!-- Ajusta el ancho del contenedor del formulario -->
-                    <form class="p-5 rounded">
-                        <div class="mb-3">
-                            <label for="nombre" class="form-label">Nombre</label>
-                            <input type="text" class="form-control" id="nombre">
-                        </div>
-                        <div class="mb-3">
-                            <label for="asunto" class="form-label">Asunto</label>
-                            <input type="text" class="form-control" id="asunto">
-                        </div>
-                        <div class="mb-3">
-                            <label for="mensaje" class="form-label">Mensaje</label>
-                            <textarea class="form-control" id="mensaje" rows="3"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Enviar</button>
-                    </form>
-                </div>
-            </div>
-        </div>
+      </div>
     </section>
-    
+
+    <footer class="text-white p-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h3>VIAJES CHILE</h3>
+            </div>
+            <div class="col-md-6 text-end">
+              <div class="iconos-redes">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
   </body>
 </html>

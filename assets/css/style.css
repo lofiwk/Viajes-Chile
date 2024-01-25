@@ -42,3 +42,18 @@ body {
 .custom-card {
     margin: 1rem;
 }
+
+footer {
+    background-color: #0DCAF0;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+  .iconos-redes a {
+    color: #fff;
+    margin: 0 5px;
+  }
+  .iconos-redes a:hover {
+    color: #ddd;
+  }
+
