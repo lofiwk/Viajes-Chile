@@ -1,13 +1,16 @@
+/* Estilos generales */
 body {
     background-color: black;
     color: white;
 }
 
+/* Estilos de la barra de navegación */
 .navbar {
     background-color: transparent;
-    backdrop-filter: blur(10px)
+    backdrop-filter: blur(10px);
 }
 
+/* Estilos de los títulos de sección */
 .section-title {
     text-align: center;
     margin-top: 50px;
@@ -18,42 +21,48 @@ body {
     padding-bottom: 10px;
 }
 
+/* Estilos de los íconos sólidos */
 .fa-solid {
     color: white;
 }
 
-#bg-section2 {
-    background-color: transparent;
-}
-
+/* Estilos de las secciones */
+#bg-section2,
 #bg-section3 {
     background-color: transparent;
 }
 
+/* Estilos de las tarjetas transparentes */
 .transparent-card {
     background-color: rgba(255, 255, 255, 0);
     border: none;
 }
 
+/* Estilos de grupos de tarjetas */
 .custom-card-group {
     margin-top: 3rem;
 }
 
+/* Estilos de tarjetas */
 .custom-card {
     margin: 1rem;
 }
 
+/* Estilos del pie de página */
 footer {
     background-color: #0DCAF0;
     color: #fff;
     text-align: center;
     padding: 15px;
-  }
-  .iconos-redes a {
+}
+
+/* Estilos de los iconos de redes sociales en el pie de página */
+.iconos-redes a {
     color: #fff;
     margin: 0 5px;
-  }
-  .iconos-redes a:hover {
-    color: #ddd;
-  }
+}
 
+/* Estilos de los iconos de redes sociales al pasar el mouse */
+.iconos-redes a:hover {
+    color: #ddd;
+}
