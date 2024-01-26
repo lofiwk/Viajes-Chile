@@ -31,9 +31,15 @@
     <!-- ESTILOS PERSONALES -->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Notas Finales</title>
+    <!-- jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <section>
+    <section id="inicio">
       <header>
         <div
           id="carouselExampleIndicators"
@@ -112,18 +118,20 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="index.html">Inicio</a>
+                  <!-- Cambia el enlace al id "inicio" -->
+                  <a class="nav-link" href="#inicio">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="quienes_somos.html"
-                    >Quienes Somos</a
-                  >
+                  <!-- Cambia el enlace al id "quienesSomos" -->
+                  <a class="nav-link" href="#quienesSomos">Quienes Somos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="destacados.html">Destacados</a>
+                  <!-- Cambia el enlace al id "destacados" -->
+                  <a class="nav-link" href="#destacados">Destacados</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contacto.html">Contacto</a>
+                  <!-- Cambia el enlace al id "contacto" -->
+                  <a class="nav-link" href="#contacto">Contacto</a>
                 </li>
               </ul>
             </div>
@@ -135,7 +143,7 @@
     <section id="bg-section2">
       <div class="container">
         <div class="section-title">
-          <h1>¿QUIENES SOMOS?</h1>
+          <h1 id="quienesSomos">¿QUIENES SOMOS?</h1>
         </div>
         <div class="row">
           <div class="col-md-4">
@@ -213,7 +221,7 @@
 
     <section id="bg-section3">
       <div class="section-title">
-        <h1>DESTACADOS</h1>
+        <h1 id="destacados">DESTACADOS</h1>
       </div>
 
       <div class="container mt-5">
@@ -275,7 +283,7 @@
 
     <section id="bg-section4">
       <div class="section-title">
-        <h1>CONTACTO</h1>
+        <h1 id="contacto">CONTACTO</h1>
       </div>
       <div class="container form-container">
         <div class="row justify-content-center">
@@ -302,21 +310,29 @@
     </section>
 
     <footer class="text-white p-4">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-3">
-              <h3>VIAJES CHILE</h3>
-            </div>
-            <div class="col-md-6 text-end">
-              <div class="iconos-redes">
-                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
-              </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <h3>VIAJES CHILE</h3>
+          </div>
+          <div class="col-md-6 text-end">
+            <div class="iconos-redes">
+              <a href="https://www.facebook.com/" target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="https://twitter.com/" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="https://www.linkedin.com/" target="_blank"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="https://github.com/" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
             </div>
           </div>
         </div>
-      </footer>
+      </div>
+    </footer>
   </body>
 </html>
